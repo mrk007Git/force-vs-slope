@@ -20,6 +20,11 @@ Where:
 - Visualizes force vs. slope angle on a graph.
 - Background gradient shows safe and dangerous force zones (green to red).
 
+## ⚠️ Disclaimer
+It is important to note that the green, yellow, and red shaded regions of the graph do not represent "go" or "no-go" areas from an operational standpoint. The yellow and red areas represent where the safety factor is less than 10:1 given a certain slope angle, rope type, and rescue mass. **Under certain circumstances**, a rescue team may choose to deviate from a 10:1 SSSF (static system safety factor) for very specific reasons.
+
+
+
 ## Requirements
 - Python 3.x
 - numpy
